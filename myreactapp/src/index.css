@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tasklist ul{
+  list-style: none;
+  margin-top: 20px;
+}
+.todo{
+  width: 500px;
+  margin: 20px auto;
+  background: #fffedc;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 300px;
+}
+.taskform input , .taskform button{
+  border: none;
+
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.taskform input{
+  background: #b8b7e4;
+  padding: 5px;
+}
+.taskform input::placeholder{
+  color: white;
+}
+.taskform input:focus{
+  outline: none;
+}
+.taskform button{
+  background: #b7e0e4;
+  box-shadow: 2px 3px 6px 0px #00000061;
+}
